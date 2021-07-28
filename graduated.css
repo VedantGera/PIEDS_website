@@ -1,0 +1,57 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    border: solid 2px red;
+}
+.companyNames {
+    vertical-align: auto;
+    margin-top: 5px;
+    padding: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color:white;
+}
+.companyDescription {
+    margin-bottom: 10px;
+    padding: 7px;
+    color: black;
+}
+.linkedinLogo {
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  transition: width 1s, height 1s;
+}
+.col-lg-4:hover {
+    opacity: 100%;
+    transition: 0.5s;
+}
+.col-lg-4:hover img {
+    width: 25px;
+    height: 25px;
+}
+.col-lg-4 {
+    opacity: 75%;
+}
+.one .companyNames {
+    background-color: rgb(58, 132, 153);
+}
+.one .companyDescription{
+    background-color: rgb(92, 202, 232);
+}
+.two .companyDescription {
+    background-color: rgb(207, 32, 39);
+}
+.two .companyNames{
+    background-color: rgb(133, 21, 25);
+}
+.three .companyDescription {
+    background-color: rgb(255, 226, 117);
+}
+.three .companyNames {
+    background-color: rgb(153, 135, 72);
+}
+#content {
+    margin-bottom: 50px;
+}
