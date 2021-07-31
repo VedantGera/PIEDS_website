@@ -13,11 +13,12 @@
 		<link rel="shortcut icon" type="image/ico" href="./favicon_pieds/favicon.ico">
 		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900" rel="stylesheet" />
 		<link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css"/>
-		<link rel="stylesheet" href="graduated.css" />
+		<link rel="stylesheet" href="css/graduated.css" />
 		<script src="js/jquery-1.9.1.min.js"></script>
 		<script src="css/5grid/init.js?use=mobile,desktop,1000px&amp;mobileUI=1&amp;mobileUI.theme=none&amp;mobileUI.titleBarHeight=0"></script>
 		<script src="js/jquery.dropotron-1.2.js"></script>
 		<script src="js/init.js"></script>
+		<script src="https://unpkg.com/scrollreveal"></script>
 		<script src="js/bootstrap/js/script.js"></script>
 		<script src="js/bootstrap/js/bootstrap.min.js"></script>
 		<script src="js/bootstrap/js/jquery-3.6.0.min.js"></script>
@@ -136,7 +137,7 @@
 		<!-- /Header Wrapper -->
 
 		<!-- Main Wrapper -->
-			<div class="wrapper wrapper-style2">
+			<div class="wrapper wrapper-style2" id="main-wrapper">
 				<div class="title">Graduated Companies</div>
 				<div class="5grid-layout">
 					<div class="row">
@@ -157,172 +158,216 @@
 																<h2 id="content">PIEDS has helped over 60 startups succeed. Our goal is to help entrepreneurs solve some of the problems commonly associated with running a startup by providing workspace, seed funding, mentoring, and training . Our sole purpose is to help entrepreneurs grow their business.</h2>
 																<br>
 
-																<div class="col-lg-4 one">
+																<div class="col-lg-4 is-visible one">
 																	<div class="companyNames">
 																		Bridle IT Solutions Pvt. Ltd.
 																	</div>
 																	<div class="companyDescription">
-																		Founder :- XYZ <br> Founded in :- 2020<br>
-																		<div class="linkedinLogo"><img src="/logos/linkedinLogo.png" width="20px" height="20px"></div>
+																		Founder &rarr; Ravindra Vytla
+																		<br> Founded in &rarr; 2004<br>
+																		
 																	</div>
 																</div>
-																<div class="col-lg-4 two">
+																<div class="col-lg-4 is-visible two">
 																	<div class="companyNames">
 																		Open Source Pilani
 																	</div>
-																	<div class="companyDescription">Founder :- XYZ <br> Founded in :- 2020<div class="linkedinLogo"><img src="/logos/linkedinLogo.png" width="20px" height="20px"></div></div>
+																	<div class="companyDescription">Founder &rarr; Manoj Vasudevan
+																		<br> Founded in &rarr; 2007</div>
 																</div>
-																<div class="col-lg-4 three">
+																<div class="col-lg-4 is-visible three">
 																	<div class="companyNames">
 																		Red Bus
 																	</div>
-																	<div class="companyDescription">Founder :- XYZ <br> Founded in :- 2020<div class="linkedinLogo"><img src="/logos/linkedinLogo.png" width="20px" height="20px"></div></div>
+																	<div class="companyDescription">Founder &rarr; Phanindra Sama, Charan Padmaraju, Sudhakar Pasupunuri
+																		<br> Founded in &rarr; 2006</div>
 																</div>
-																<div class="col-lg-4 one">
+																<div class="col-lg-4 is-visible one">
 																	<div class="companyNames">
 																		Mobile Medics
 																	</div>
-																	<div class="companyDescription">Founder :- XYZ <br> Founded in :- 2020<div class="linkedinLogo"><img src="/logos/linkedinLogo.png" width="20px" height="20px"></div></div>
+																	<div class="companyDescription">Founder &rarr; Sriram Gutta, Kavikrut, Srikanth P, Amit Mirchandani and M Rajashekhar
+																		<br> Founded in &rarr; 2005</div>
 																</div>
-																<div class="col-lg-4 two">
+																<div class="col-lg-4 is-visible two">
 																	<div class="companyNames">
 																		Sanat  Technologies 
 																	</div>
-																	<div class="companyDescription">Founder :- XYZ <br> Founded in :- 2020<div class="linkedinLogo"><img src="/logos/linkedinLogo.png" width="20px" height="20px"></div></div>
+																	<div class="companyDescription">Founder &rarr; Ramamurthy Rajagopalan, Krishnakumar Anandan, Vasan Vasudevan Srini
+																		<br> Founded in &rarr; 2006</div>
 																</div>
-																<div class="col-lg-4 three">
+																<div class="col-lg-4 is-visible three">
 																	<div class="companyNames">
 																		QA Infotech
 																    </div>
-																	<div class="companyDescription">Founder :- XYZ <br> Founded in :- 2020<div class="linkedinLogo"><img src="/logos/linkedinLogo.png" width="20px" height="20px"></div></div>
+																	<div class="companyDescription">Founder &rarr; Mukesh Sharma
+																		<br> Founded in &rarr; 2003</div>
 																</div>
-																<div class="col-lg-4 one">
+																<div class="col-lg-4 is-visible one">
 																	<div class="companyNames">
 																		Imconfuzed
 																	</div>
-																	<div class="companyDescription">Founder :- XYZ <br> Founded in :- 2020<div class="linkedinLogo"><img src="/logos/linkedinLogo.png" width="20px" height="20px"></div></div>
+																	<div class="companyDescription">Founder &rarr; Kunal Singla
+																		<br> Founded in &rarr; 2008</div>
 																</div>
-																<div class="col-lg-4 two">
+																<div class="col-lg-4 is-visible two">
 																	<div class="companyNames">
 																		Veta Peracta 
 																	</div>
-																	<div class="companyDescription">Founder :- XYZ <br> Founded in :- 2020<div class="linkedinLogo"><img src="/logos/linkedinLogo.png" width="20px" height="20px"></div></div>
+																	<div class="companyDescription">Founder &rarr; XYZ <br> Founded in &rarr; 2020</div>
 																</div>
-																<div class="col-lg-4 three">
+																<div class="col-lg-4 is-visible three">
 																	<div class="companyNames">
 																		Nextgen Pms Ltd.
 																	</div>
-																	<div class="companyDescription">Founder :- XYZ <br> Founded in :- 2020<div class="linkedinLogo"><img src="/logos/linkedinLogo.png" width="20px" height="20px"></div></div>
+																	<div class="companyDescription">Founder &rarr; Abishek Humbad and Richa Bajpai 
+																		<br> Founded in &rarr; 2009</div>
 																</div>
-																<div class="col-lg-4 one">
+																<div class="col-lg-4 is-visible one">
 																	<div class="companyNames">
 																		CDS Solutions
 																	</div>
-																	<div class="companyDescription">Founder :- XYZ <br> Founded in :- 2020<div class="linkedinLogo"><img src="/logos/linkedinLogo.png" width="20px" height="20px"></div></div>
+																	<div class="companyDescription">Founder &rarr; XYZ <br> Founded in &rarr; 2020</div>
 																</div>
-																<div class="col-lg-4 two">
+																<div class="col-lg-4 is-visible two">
 																	<div class="companyNames">
 																		Anaya  Media 
 																	</div>
-																	<div class="companyDescription">Founder :- XYZ <br> Founded in :- 2020<div class="linkedinLogo"><img src="/logos/linkedinLogo.png" width="20px" height="20px"></div></div>
+																	<div class="companyDescription">Founder &rarr; Rohit Agrawal
+																		<br> Founded in &rarr; 2010</div>
 																</div>
-																<div class="col-lg-4 three">
+																<div class="col-lg-4 is-visible three">
 																	<div class="companyNames">
 																		Parivartan Foundation 
 																	</div>
-																	<div class="companyDescription">Founder :- XYZ <br> Founded in :- 2020<div class="linkedinLogo"><img src="/logos/linkedinLogo.png" width="20px" height="20px"></div></div>
+																	<div class="companyDescription">Founder &rarr; Pratik Yadav
+																		<br> Founded in &rarr; 2020</div>
 																</div>
-																<div class="col-lg-4 one">
+																<div class="col-lg-4 is-visible one">
 																	<div class="companyNames">
 																		Gray Orange Robotics
 																	</div>
-																	<div class="companyDescription">Founder :- XYZ <br> Founded in :- 2020<div class="linkedinLogo"><img src="/logos/linkedinLogo.png" width="20px" height="20px"></div></div>
+																	<div class="companyDescription">Founder &rarr; Samay Kohli and Akash Gupta
+																		<br> Founded in &rarr; 2011</div>
 																</div>
-																<div class="col-lg-4 two">
+																<div class="col-lg-4 is-visible two">
 																	<div class="companyNames">
 																		Innovese
 																	</div>
-																	<div class="companyDescription">Founder :- XYZ <br> Founded in :- 2020<div class="linkedinLogo"><img src="/logos/linkedinLogo.png" width="20px" height="20px"></div></div>
+																	<div class="companyDescription">Founder &rarr; Ankit, Neeraj Agarwal and Dhruv Sogani
+																		<br> Founded in &rarr; 2009</div>
 																</div>
-																<div class="col-lg-4 three">
+																<div class="col-lg-4 is-visible three">
 																	<div class="companyNames">
 																		Smartec
 																	</div>
-																	<div class="companyDescription">Founder :- XYZ <br> Founded in :- 2020<div class="linkedinLogo"><img src="/logos/linkedinLogo.png" width="20px" height="20px"></div></div>
+																	<div class="companyDescription">Founder &rarr; XYZ <br> Founded in &rarr; 2020</div>
 																</div>
-																<div class="col-lg-4 one">
+																<div class="col-lg-4 is-visible one">
 																	<div class="companyNames">
 																		Teevra cycles
 																	</div>
-																	<div class="companyDescription">Founder :- XYZ <br> Founded in :- 2020<div class="linkedinLogo"><img src="/logos/linkedinLogo.png" width="20px" height="20px"></div></div>
+																	<div class="companyDescription">Founder &rarr; Abhinav Mahajan
+																		<br> Founded in &rarr; 2011</div>
 																</div>
-																<div class="col-lg-4 two">
+																<div class="col-lg-4 is-visible two">
 																	<div class="companyNames">
 																		Tune patrol
 																	</div>
-																	<div class="companyDescription">Founder :- XYZ <br> Founded in :- 2020<div class="linkedinLogo"><img src="/logos/linkedinLogo.png" width="20px" height="20px"></div></div>
+																	<div class="companyDescription">Founder &rarr; Brijesh Bhardwaj, Saurabh Gupta, Karthik G, and Pronoot Barkakati
+																		<br> Founded in &rarr; 2012</div>
 																</div>
-																<div class="col-lg-4 three">
+																<div class="col-lg-4 is-visible three">
 																	<div class="companyNames">
 																		SHArP Edge Learning Pvt. Ltd. 
 																	</div>
-																	<div class="companyDescription">Founder :- XYZ <br> Founded in :- 2020<div class="linkedinLogo"><img src="/logos/linkedinLogo.png" width="20px" height="20px"></div></div>
+																	<div class="companyDescription">Founder &rarr; Sourabh Gupta, Harshit Gupta,
+																		<br> Founded in &rarr; 2011</div>
 																</div>
-																<div class="col-lg-4 one">
+																<div class="col-lg-4 is-visible one">
 																	<div class="companyNames">
 																		MyTiTechnetronics Pvt. Ltd.
 																	</div>
-																	<div class="companyDescription">Founder :- XYZ <br> Founded in :- 2020<div class="linkedinLogo"><img src="/logos/linkedinLogo.png" width="20px" height="20px"></div></div>
+																	<div class="companyDescription">Founder &rarr; Rohin Kumar Yeluripati, Meena Sushma Vuppuluri, Mohit Wadhwa 
+																		<br> Founded in &rarr; 2012</div>
 																</div>
-																<div class="col-lg-4 two">
+																<div class="col-lg-4 is-visible two">
 																	<div class="companyNames">
 																		3D-IP Semiconductors Private Limited 
 																	</div>
-																	<div class="companyDescription">Founder :- XYZ <br> Founded in :- 2020<div class="linkedinLogo"><img src="/logos/linkedinLogo.png" width="20px" height="20px"></div></div>
+																	<div class="companyDescription">Founder &rarr; Deep Masiwal and Deeksha Sharma
+																		<br> Founded in &rarr; 2013</div>
 																</div>
-																<div class="col-lg-4 three">
+																<div class="col-lg-4 is-visible three">
 																	<div class="companyNames">
 																		Techture Structures Pvt. Ltd.
 																	</div>
-																	<div class="companyDescription">Founder :- XYZ <br> Founded in :- 2020<div class="linkedinLogo"><img src="/logos/linkedinLogo.png" width="20px" height="20px"></div></div>
+																	<div class="companyDescription">Founder &rarr;  Arnav Jain, Viraj Voditel, Dayesh Jaiswal
+																		<br> Founded in &rarr; 2013</div>
 																</div>
-																<div class="col-lg-4 one">
+																<div class="col-lg-4 is-visible one">
 																	<div class="companyNames">
 																		Piquor Technologies Pvt. Ltd.
 																	</div>
-																	<div class="companyDescription">Founder :- XYZ <br> Founded in :- 2020<div class="linkedinLogo"><img src="/logos/linkedinLogo.png" width="20px" height="20px"></div></div>
+																	<div class="companyDescription">Founder &rarr; Pranjal Prashar, Vineet Chouhan
+																		<br> Founded in &rarr; 2012</div>
 																</div>
-																<div class="col-lg-4 two">
+																<div class="col-lg-4 is-visible two">
 																	<div class="companyNames">
 																		Tapchief 
 																	</div>
-																	<div class="companyDescription">Founder :- XYZ <br> Founded in :- 2020<div class="linkedinLogo"><img src="/logos/linkedinLogo.png" width="20px" height="20px"></div></div>
+																	<div class="companyDescription">Founder &rarr; Shashank Murali, Binay Krishna, and Arjun Krishna
+																		<br> Founded in &rarr; 2005</div>
 																</div>
-																<div class="col-lg-4 three">
+																<div class="col-lg-4 is-visible three">
 																	<div class="companyNames">
 																		Drakle 
 																	</div>
-																	<div class="companyDescription">Founder :- XYZ <br> Founded in :- 2020<div class="linkedinLogo"><img src="/logos/linkedinLogo.png" width="20px" height="20px"></div></div>
+																	<div class="companyDescription">Founder &rarr; XYZ <br> Founded in &rarr; 2020</div>
+																</div>
+																<div class="col-lg-4 is-visible one">
+																	<div class="companyNames">
+																		HUMIT
+																	</div>
+																	<div class="companyDescription">Founder &rarr;  Rohit Ganapathy, Prithvi Sankar and Ishaan Negi <br> Founded in &rarr; 2020</div>
+																</div>
+																<div class="col-lg-4 is-visible two">
+																	<div class="companyNames">
+																		Dexter 
+																	</div>
+																	<div class="companyDescription">Founder &rarr; Devendra Agarwal <br> Founded in &rarr; 2013</div>
+																</div>
+																<div class="col-lg-4 is-visible three">
+																	<div class="companyNames">
+																		Aspire
+																	</div>
+																	<div class="companyDescription">Founder &rarr; XYZ <br> Founded in &rarr; 2020</div>
 																</div>
 																<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
 																	<div class="carousel-inner">
-																		<div class="carousel-item active">
+																		<div class="carousel-item active" data-interval="3000">
 																			<img  src="./logos/redbus logo.jpeg" class="w-20 " >
 																			<img src="./logos/techture logo.jpeg" class="w-20 " >
 																			<img src="./logos/nextgen logo.jpeg" class="w-20 " >
 																			<img src="./logos/innovese logo.jpeg" class="w-20 " >
 																		</div>
-																		<div class="carousel-item">
+																		<div class="carousel-item" data-interval="3000">
 																			<img src="./logos/3D-IP logo.jpeg" class="w-20 " >
 																			<img src="./logos/parivartan logo.jpeg" class="w-20 " >																	
 																			<img src="./logos/sharpedge learning logo.jpeg" class="w-20 " >
-																			<img src="./logos/QAIT logo.jpeg" class="w-20 " >
+																			<img src="./logos/humitLogo.jpeg" class="w-20 " >
 																		</div>
-																		<div class="carousel-item last">
-																			<img src="./logos/greyorange logo.jpeg" class="w-20 " >
-																			<img src="./logos/tunepatrol logo.jpeg" class="w-20 " >
+																		<div class="carousel-item last" data-interval="3000">
+																			<img src="./logos/QAIT logo.jpeg" class="w-30 " >
+																			<img src="./logos/greyorange logo.jpeg" class="w-30 " >
+																			<img src="./logos/tunepatrol logo.jpeg" class="w-30 " >
 																		  </div>
 																	</div>
+																  </div>
+																  <div class="container">
+																	  <div class="row">
+																		  <div class="col-lg-12 col-12" id="manyMore">AND MANY MORE...</div>
+																	  </div>
 																  </div>
 
 													<!--<ol>
@@ -383,8 +428,123 @@
 		<!-- /Highlights Wrapper -->
 
 		<!-- Footer Wrapper -->
+		<div id="footer-wrapper" class="wrapper">
+			<div class="title">Contact Us</div>
+			<div class="5grid-layout">
+				<div class="row">
+					<div class="12u">
+
+						<!-- Footer -->
+							<div id="footer">
+								<div class="5grid">
+									<div class="row">
+
+										<div class="6u">
+
+											<!-- Contacts -->
+												<section class="footer-two">
+													<div class="feature-list feature-list-small">
+														<div class="5grid">
+															<div class="row">
+																<div class="6u">
+																	<section>
+																		<h3 class="icon icon-home">Address</h3>
+																		<p>
+																			2220, Pilani Innovation & Entrepreneurship Development Society (PIEDS)<br>
+																			Birla Institute of Technology and Science,
+																			<br> Pilani, Rajasthan, India - 333031
+																		</p>
+																	</section>
+																</div>
+																<div class="6u">
+																	<section>
+																		<h3 class="icon icon-comment">Socials</h3>
+																		<p>
+																			<a href="https://twitter.com/BITS_PIEDS" target="_blank">Twitter</a><br />
+																			<a href="https://www.facebook.com/Pilani-Innovation-and-Entrepreneurship-Development-Society-112297490950068" target="_blank">Facebook</a><br />
+																			<a href="https://www.linkedin.com/company/pilani-innovation-entrepreneurship-development-society-pieds-bits-pilani/">Linkedin</a><br>
+																			<a href="https://www.instagram.com/pieds_bitspilani/">Instagram</a>
+																		</p>
+																	</section>
+																</div>
+															</div>
+															<div class="row">
+																<div class="6u">
+																	<section>
+																		<h3 class="icon icon-envelope">Email</h3>
+																		<p>
+																			tbi@pieds-bitspilani.org
+																		</p>
+																	</section>
+																</div>
+																<div class="6u">
+																	<section>
+																		<h3 class="icon icon-phone">Phone</h3>
+																		<p>
+																			+91-8955479457
+																		</p>
+																	</section>
+																</div>
+															</div>
+														</div>
+													</div>
+												</section>
+											<!-- /Contacts -->
+
+										</div>
+										<div class="6u">
+
+											<!-- Contact Form -->
+												<section class="footer-one">
+													<a class="twitter-timeline" data-width="500" data-height="500" data-theme="dark" href="https://twitter.com/BITS_PIEDS?ref_src=twsrc%5Etfw">Tweets by BITS_PIEDS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+												</section>
+											<!-- /Contact Form -->
+
+										</div>
+									</div>
+								</div>
+
+							</div>
+						<!-- /Footer -->
+
+						<!-- Copyright -->
+
+						<!-- /Copyright -->
+
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<!-- /Footer Wrapper -->
 
 	</body>
+	<script>
+		window.sr = ScrollReveal();
+sr.reveal('.one' , {
+    duration: 2000,
+    origin:'left',
+    distance: '200px'
+});
+sr.reveal('.three' , {
+    duration: 2000,
+    origin:'right',
+    distance: '200px'
+});
+    sr.reveal('.two' , {
+    duration: 2000,
+    origin:'bottom',
+    distance: '200px'
+    });
+	sr.reveal('#content' , {
+    duration: 2000,
+    origin:'top',
+    distance: '200px'
+    });
+	sr.reveal('#manyMore' , {
+    duration: 2000,
+    origin:'bottom',
+    distance: '200px'
+    });
+	</script>
 </html>
