@@ -319,6 +319,116 @@
 	{
 		padding-bottom: 8em;
 	}
+	
+	.carousel-item-header {
+		height: 80vh;
+	}
+	.img-box {
+		width:100%;
+		position: relative;
+	}
+	.pic-one {
+		width:100%;
+	}
+	.pic-two {
+		width:100px;
+		position: absolute;
+		left: 10px;
+		bottom: 20px;
+	}
+	.pic-three {
+		width:75px;
+		position: absolute;
+		left: 150px;
+		bottom: 70px;
+	}
+	.pic-four {
+		width:160px;
+		position: absolute;
+		right: 40px;
+		top: 110px;
+	}
+	.pic-five {
+		width:110px;
+		position: absolute;
+		right: 20px;
+		bottom: 0px;
+	}
+	.pic-six {
+		width:160px;
+		position: absolute;
+		right: 160px;
+		bottom: 35px;
+	}
+	.slide-one {
+		background-color: #b0c6f5;
+	}
+	.carousel-item-header .row {
+		margin: 9% 0;
+	}
+	.carousel-item-header h1 {
+		margin-top: 40px;
+		font-weight: bold;
+		color: white;
+	}
+	.carousel-item-header p {
+		margin-top: 30px 0 50px;
+		font-size: 13px;
+		color: white;
+	}
+	.carousel-item-header button {
+		padding: 8px 20px;
+		background: #0c5ce3;
+		border: 0;
+		outline: none;
+		border-radius: 20px;
+		color: white;
+		font-size: 13px;
+	}
+	.slide-two {
+		background: #f7f7f7;
+	}
+	.slide-two h1, .slide-two p{
+		color: #feb154;
+	}
+	.img-one {
+		width: 100%;
+	}
+	.img-two {
+		width: 200px;
+		position: absolute;
+		left: 0;
+		bottom: 20px;
+	}
+	.img-three {
+		width: 70px;
+		position: absolute;
+		left: 245px;
+		bottom: 55px;
+	}
+	.img-four {
+		width: 60px;
+		position: absolute;
+		right: 145px;
+		bottom: 92px;
+	}
+	.img-five {
+		width: 100px;
+		position: absolute;
+		right: 50px;
+		bottom: 20px;
+	}
+	#slide-two-button {
+		background-color: #ffd255;
+	}
+	.button-header {
+		background-color: transparent;
+		border: none;
+	}
+	#mobileTop {
+		display: none;
+	}
+	
 
 /*********************************************************************************/
 /* Header                                                                        */
@@ -665,3 +775,12 @@
 			line-height: 1em;
 			font-size: 0.8em;
 		}
+
+
+.learnMore:hover {
+    text-decoration: none !important;
+	color: lightgray;
+}
+.highlightHeadings:hover {
+    color: #E97770;
+}
