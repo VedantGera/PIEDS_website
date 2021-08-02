@@ -1,0 +1,5 @@
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .learnMore {
+        width: 50px !important;
+    }
+}

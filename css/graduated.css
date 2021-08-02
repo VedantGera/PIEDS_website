@@ -58,7 +58,7 @@
 }
 #manyMore {
     text-align: center;
-    font-size: 4.5vw;
+    font-size: 35px;
     height: auto;
     margin-top: 20px;
     color: black;
@@ -67,6 +67,7 @@
 }
 #main-wrapper {
     padding-bottom: 20px !important;
+    margin-top: 50px;
 }
 .companyDescription {
     height: 130px;
