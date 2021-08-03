@@ -319,7 +319,7 @@
 	{
 		padding-bottom: 8em;
 	}
-	
+
 	.carousel-item-header {
 		height: 80vh;
 	}
@@ -428,7 +428,7 @@
 	#mobileTop {
 		display: none;
 	}
-	
+
 
 /*********************************************************************************/
 /* Header                                                                        */
@@ -499,7 +499,7 @@
 		}
 
 		#nav ul
-		{
+		{	
 			display: inline-block;
 			border-radius: 0.35em;
 			box-shadow: inset 0px 0px 3px 2px rgba(0,0,0,0.25);
